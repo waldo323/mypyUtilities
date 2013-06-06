@@ -1,18 +1,20 @@
 #!/usr/bin/env python
-####File Splitter
-# splits a single python file in to several python files 
-# for a file in the form:
-# ###Hello, World!###
-# print "Hello, World!"
-# ##
-# ###Goodbye to the world Types###
-# ...
-# code
-# ...
-# ##
-# ###Next Code Segment###
-# ...
-####
+"""
+File Splitter
+splits a single python file in to several python files 
+
+for a file in the form:
+###Hello, World!###
+print "Hello, World!"
+##
+###Goodbye to the world Types###
+...
+code
+...
+##
+###Next Code Segment###
+...
+"""
 
 import os, re, sys
 
